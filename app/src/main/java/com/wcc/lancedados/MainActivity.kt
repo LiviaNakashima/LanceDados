@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
 
         val nomeJogador = getIntent().getStringExtra("nomeJogador")
         val nomeJogadorTv = findViewById<TextView>(R.id.tv_nome_jogador)
-        nomeJogadorTv.text = "Olá, $nomeJogador"
+        nomeJogadorTv.text = "Hora do jogo, $nomeJogador! Boa sorte!"
 
     }
 
